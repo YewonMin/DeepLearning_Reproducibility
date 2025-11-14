@@ -1,8 +1,9 @@
 # DeepLearning Course - Reproducibility Project (Facial Expression Recognition)
 <img width="6699" height="1836" alt="image" src="https://github.com/user-attachments/assets/cf37265b-23f3-4ac8-8b00-0ac45839e069" />
-This repository aims to reproduce and analyze the [POSTER V2: A simpler and stronger facial expression recognition network](https://arxiv.org/pdf/2301.12149).
+This repository aims to reproduce and analyze the [POSTER V2: A simpler and stronger facial expression recognition network](https://arxiv.org/pdf/2301.12149)
 
 The original paper introduces a **Patch Attention Transformer** architecture designed to capture both global and local facial features efficiently.  
+
 In this project, we focus on verifying the reproducibility of POSTER V2 by retraining it on publicly available emotion datasets (AI Hub and custom VR data) and comparing results under different training conditions such as data augmentation and hyperparameter tuning.
 
 
@@ -25,7 +26,7 @@ In this project, we focus on verifying the reproducibility of POSTER V2 by retra
 Since the original dataset from the referenced paper was unavailable, we utilized:
 * 1. [AI Hub Dataset](https://aihub.or.kr/aihubdata/data/view.do?currMenu=115&topMenu=100&aihubDataSe=realm&dataSetSn=82)
   * Composite Images for Korean Emotion Recognition
-* 2. Custom VR headset user dataset (three classes: positive, neutral, negative) —
+* 2. Custom VR headset user dataset (three classes: positive, neutral, negative)
   * We collected images of the lower frontal face of a user wearing a VR headset using an RGB camera. Due to privacy concern, these datasets are not publicly shareable.
 
 
