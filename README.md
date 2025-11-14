@@ -9,16 +9,17 @@ In this project, we focus on verifying the reproducibility of POSTER V2 by retra
 
 ## Folder Structure
 ```bash
-├── checkpoint/ # Saved model weights and experiment logs
-├── data/ # Original and processed datasets
-│ ├── AIhub_train/
-│ ├── AIhub_test/
-├── data_preprocessing/ # Data cleaning, augmentation, and preparation scripts
-├── log/ # Training logs, loss/accuracy curves, tensorboard outputs
-├── models/ # Model definitions, training utilities
-├── main.py # Primary training & evaluation pipeline
-├── main_no_augmentation.py # Baseline training script without data augmentation
-└── requirements.txt # Dependency list
+DeepLearning_Reproducibility/
+├── checkpoint/              # Saved model weights and experiment logs
+├── data/                    # Original and processed datasets
+│   ├── AIhub_train/
+│   ├── AIhub_test/
+├── data_preprocessing/      # Data cleaning, augmentation, and preparation scripts
+├── log/                     # Training logs, loss/accuracy curves, tensorboard outputs
+├── models/                  # Model definitions, training utilities
+├── main.py                  # Primary training & evaluation pipeline
+├── main_no_augmentation.py  # Baseline training script without data augmentation
+└── requirements.txt         # Dependency list
 ```
 
 
@@ -69,16 +70,16 @@ Pre-trained weights for key experiments are available: [Checkpoints](https://git
 | Custom data (parameter search)   | 80.77              | checkpoint/try5_ours_best.pth |
 
 
+## Conclusion
+- This project successfully **reproduced the POSTER V2 facial expression recognition model**.  
+- **Reproducibility** was validated on both AI Hub and custom VR datasets.  
+- **Data augmentation** method significantly improve model performance.  
+- Largely consistent results with the original paper demonstrate that POSTER V2 is **robust and generalizable**.  
+
+
 ## Reference
 * Github: [POSTER_V2](https://github.com/Talented-Q/POSTER_V2)
 * Paper: [POSTER_V2](https://www.sciencedirect.com/science/article/pii/S0031320324007027)
 ```bash
 @article{mao2023poster, title={POSTER V2: A simpler and stronger facial expression recognition network}, author={Mao, Jiawei and Xu, Rui and Yin, Xuesong and Chang, Yuanqi and Nie, Binling and Huang, Aibin}, journal={arXiv preprint arXiv:2301.12149}, year={2023}}
 ```
-
-
-## Conclusion
-- This project successfully **reproduced the POSTER V2 facial expression recognition model**.  
-- **Reproducibility** was validated on both AI Hub and custom VR datasets.  
-- **Data augmentation** method significantly improve model performance.  
-- Largely consistent results with the original paper demonstrate that POSTER V2 is **robust and generalizable**.  
