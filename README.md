@@ -1,9 +1,7 @@
 # DeepLearning Course - Reproducibility Project (Facial Expression Recognition)
 <img width="6699" height="1836" alt="image" src="https://github.com/user-attachments/assets/cf37265b-23f3-4ac8-8b00-0ac45839e069" />
 
-This repository aims to reproduce and analyze the [POSTER_V2](https://github.com/Talented-Q/POSTER_V2) [POSTER V2: A simpler and stronger facial expression recognition network](https://arxiv.org/pdf/2301.12149).
-
-
+This repository aims to reproduce and analyze the [POSTER V2: A simpler and stronger facial expression recognition network](https://arxiv.org/pdf/2301.12149).
 The original paper introduces a **Patch Attention Transformer** architecture designed to capture both global and local facial features efficiently.  
 
 In this project, we focus on verifying the reproducibility of POSTER V2 by retraining it on publicly available emotion datasets (AI Hub and custom VR data) and comparing results under different training conditions such as data augmentation and hyperparameter tuning.
